@@ -1,6 +1,8 @@
 require File.dirname(__FILE__) + '/spec_helper.rb'
 require File.dirname(__FILE__) + '/../lib/gchart'
 
+include GoogleCharts
+
 describe "generating a default Gchart" do
   it 'should be able to add additional theme files' do
     expect(Chart::Theme.theme_files).not_to include("#{File.dirname(__FILE__)}/fixtures/another_test_theme.yml")

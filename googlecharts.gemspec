@@ -4,7 +4,7 @@ require "gchart/version"
 
 Gem::Specification.new do |s|
   s.name = %q{googlecharts}
-  s.version = GchartInfo::VERSION
+  s.version = GoogleCharts::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors = ["Matt Aimonetti", "Andrey Deryabin", "Pedro Pimentel"]
   s.date = %q{2014-12-15}
